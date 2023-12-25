@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+ <h:head>
+     <title>Result</title>
+ </h:head>
+    <h:body>
+        <h:panelGrid columns="2">
+            <h:outputText value="Start:"/>
+            <h:outputText value="#{tabulationBean.tabulation.start}"/>
+            <h:outputText value="End:"/>
+            <h:outputText value="#{tabulationBean.tabulation.end}"/>
+            <h:outputText value="Step:"/>
+            <h:outputText value="#{tabulationBean.tabulation.step}"/>
+            <h:outputText value="A:"/>
+            <h:outputText value="#{tabulationBean.tabulation.a}"/>
+            <h:outputText value="Max Y:"/>
+            <h:outputText value="#{tabulationBean.maxiY}"/>
+            <h:outputText value="Min Y:"/>
+            <h:outputText value="#{tabulationBean.miniY}"/>
+            <h:outputText value="Max X:"/>
+            <h:outputText value="#{tabulationBean.maxiX}"/>
+            <h:outputText value="Min X:"/>
+            <h:outputText value="#{tabulationBean.miniX}"/>
+            <h:outputText value="Steps:"/>
+            <h:outputText value="#{tabulationBean.steps}"/>
+            <h:outputText value="Sum:"/>
+            <h:outputText value="#{tabulationBean.suma}"/>
+            <h:outputText value="Arithmetic mean:"/>
+            <h:outputText value="#{tabulationBean.arifmetic}"/>
+        </h:panelGrid>
+    </h:body>
+</f:view>
+</html>
